@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="breakfast">#7ab752</color>
+    <color name="lunch">#dce775</color>
+    <color name="dinner">#eab46d</color>
+    <color name="other">#DABA96</color>
+    <color name="breakfast1">#5F9E40</color>
+    <color name="lunch1">#C0D20C</color>
+    <color name="dinner1">#E8A852</color>
+    <color name="other1">#AA8356</color>
+</resources>

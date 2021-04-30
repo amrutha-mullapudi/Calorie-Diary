@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".loginpage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:paddingTop="20sp"
+            android:layout_gravity="center"
+            android:src="@drawable/logomaker" />
+
+        <TextView
+            android:id="@+id/logintxt1"
+            android:text="Welcome to calorie diary"
+            android:paddingTop="10dp"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:fontFamily="cursive"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <EditText
+            android:id="@+id/edit1"
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50sp"
+            android:textSize="25sp"
+            android:inputType="text"
+            android:hint="Username"
+            android:fontFamily="serif"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/ic_baseline_person_24"
+            android:background="@drawable/editlogin"
+            android:padding="20dp"
+            />
+
+        <EditText
+            android:id="@+id/edit2"
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:layout_marginTop="25sp"
+            android:inputType="textPassword"
+            android:hint="Password"
+            android:fontFamily="serif"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/ic_baseline_lock_24"
+            android:background="@drawable/editlogin"
+            android:padding="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20sp"
+            android:textColor="#2CA7E0"
+            android:layout_gravity="right"
+            android:layout_marginRight="40sp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Forgot password?"
+            android:textSize="15sp"
+            />
+        <Button
+            android:id="@+id/loginbutton"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:background="@drawable/custom_button"
+            android:layout_marginTop="20sp"
+            android:text="login"
+            android:fontFamily="serif"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:backgroundTint="#2CA7E0"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <TextView
+            android:id="@+id/createaccount"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Dont have an account?"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="45sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="40sp"
+            android:text="Create Account"
+            android:textStyle="bold"
+            />
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

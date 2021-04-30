@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "833142567026",
+    "firebase_url": "https://calorie-diary-24f22.firebaseio.com",
+    "project_id": "calorie-diary-24f22",
+    "storage_bucket": "calorie-diary-24f22.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:833142567026:android:1b69d7bfe25f4b703652eb",
+        "android_client_info": {
+          "package_name": "com.example.burn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "833142567026-mu73bnree7al1o3lfavglsnrern0388i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxX1rno2qsO74UCEvnZCTQgcYAEhjyPbY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "833142567026-mu73bnree7al1o3lfavglsnrern0388i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

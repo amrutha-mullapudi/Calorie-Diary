@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BURN</string>
+    <string name="burn">Calorie Diary</string>
+    <string name="food1">There is no love greater than love for food.</string>
+    <string name="brekfast">You should eat a hearty breakfast to boost your energy and mental focus in the morning.</string>
+    <string name="lunch">You should eat a hearty lunch to boost your energy and mental focus in the morning.</string>
+    <string name="dinner">You should eat a hearty dinner to boost your energy and mental focus in the morning.</string>
+    <string name="other">You should eat a hearty other food to boost your energy and mental focus in the morning.</string>
+
+</resources>
